@@ -1,0 +1,445 @@
+/* CYBERBULLISMO LANDING PAGE
+Company: ADGLEN
+Partner: APPLABSTUDIO
+Year: 2023
+*/
+
+
+
+
+
+/* Custom  Elements */
+
+body {
+    background-color: #F5F5F5;
+    overflow-x: hidden !important;
+    font-family: 'Lato';
+    margin: 0;
+}
+
+h1, h2 {
+    font-style: normal;
+    font-weight: 800;
+}
+
+a {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+h3 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 41px;
+    letter-spacing: 0.04em;
+    color: #00469B;
+}
+
+/* End custom elements */
+
+/* Wrap Main */
+/* main {
+    max-width: 1200px;
+    margin: 0 auto;
+} */
+
+/* Hero Banner */
+.hero_banner {
+    box-shadow: inset 0 0 0 1000px rgb(58 94 141 / 56%);
+    background: url('../assets/img/background_hero_section.png');
+    background-position-x: right;
+    background-size: cover;
+}
+
+.logo_container {
+    padding-top: 100px;
+}
+
+.welcome_section {
+    padding: 27px 80px 0px 87px;
+}
+
+.welcome_section p {
+    color: #00469B;
+    font-style: normal;
+    font-size: 23px;
+    line-height: 33px;
+    letter-spacing: 0.04em;
+    padding-bottom: 86px;
+}
+
+.title_section {
+    background: #00469B;
+    padding: 62px 100px;
+}
+
+.title_section h1 {
+    font-size: 48px;
+    line-height: 78px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 0;
+}
+
+
+.title_section h2 {
+    font-size: 38px;
+    line-height: 47px;
+    letter-spacing: 0.04em;
+    color: white;
+}
+/* End Hero Banner */
+
+
+.content-webinar {
+    background-color: white;
+    margin: 100px 40px 0 40px;
+    padding:58px 50px;
+}
+
+.heading-webinar img {
+    width:35.2px;
+  align-self: center;
+  padding-right: 20px;
+  position: relative;
+  top: 13px
+  
+}
+
+.cta-section-webinar {
+    color: #00469B !important;
+    padding-top: 30px;
+}
+
+.link {
+    font-size: 20px;
+    color: #00469B;
+}
+
+.title-webinar {
+    font-size: 35px;
+}
+
+.heading-webinar h1 {
+    font-size: 28px;
+    line-height: 42px;
+    letter-spacing: 0.04em;
+    color: #00469B;
+}
+
+.heading-webinar h2 {
+    font-size: 22px;
+    line-height: 42px;
+    letter-spacing: 0.04em;
+    color: #00469B;
+    margin: 39px 0 10px;
+}
+
+.content-webinar__paragraph p {
+    font-style: normal;
+    color: #404449;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.04em;
+}
+
+.cta-download {
+    margin-left: 12px;
+    background-color: #00469B !important;
+    font-size:22px;
+}
+
+.content-webinar-column {
+    margin-top: 58px;
+    padding-bottom:20px;
+}
+
+.content-webinar iframe {
+    margin-top: 34px;
+    width:986px;
+    height:555px;
+}
+
+.content-webinar-grid-subheading:nth-child(1) {
+    margin:0;
+    padding-top: 30px;
+}
+
+.content-webinar-grid-subheading {
+    font-style: normal;
+    font-size: 28px;
+    line-height: 41px;
+    letter-spacing: 0.04em;
+    color: #00469B;
+}
+
+.testimonial-heading {
+    margin: 84px 0 0 0;
+}
+
+.content-webinar-grid-paragraph {
+    font-size: 25px;
+    line-height: 37px;
+    letter-spacing: 0.05em;
+    color: #32363A;
+    padding-bottom: 24px;
+    max-width:600px;
+}
+
+.cta-container {
+    display: flex;
+    align-items: center;
+    align-content:center;
+}
+
+.cta-container .cta-webinar {
+    width: 404px;
+    height: 68px;
+    background: #00469B;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.cta-webinar:hover {
+    transition: 0.25s all;
+    background-color: #023b80;
+    text-decoration-line: none;
+    color: white;
+    transform: scale(0.9);
+}
+
+.credids-container {
+    padding-top: 106px;
+}
+
+.column-custom-first {
+    border-right: 4px solid #00469B;
+    height: 208px;
+    width: 382px;
+    padding-right: 49px;
+}
+
+.column-custom-second {
+    padding-left: 49px;
+}
+
+
+.grid-youtube .uk-grid-margin {
+    margin-top: 0 !important;
+}
+
+.video-card iframe {
+    width: 100%;
+    height: 282px;
+    margin-right: 23px;
+}
+
+.video-card h3 {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 32px;
+    color: #32363A;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    text-align: left;
+}
+
+.video-card p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align:left;
+    color: #808080;
+    margin-top: 4px;
+}
+
+.contact-section {
+    margin-top: 80px;
+}
+
+.contact-section h2 {
+    color: #00469B;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+
+.contact-section .cta-webinar {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+/* Media Query */
+
+  @media (min-width: 320px) and (max-width: 880px) {
+    .hero_banner {
+        background-position-x: 500px;
+        background-size: cover;
+    }
+
+    .logo_container {
+        padding-top: 50px;
+    }
+
+    .logo_container img {
+        width: 100%;
+        display: flex;
+        align-self:center;
+        margin: 0;
+    }
+
+    .welcome_section {
+        padding: 20px 8px 0 15px;
+    }
+
+    .welcome_section p {
+        font-size: 16px;
+        letter-spacing: unset;
+        line-height: unset;
+        color: white;
+    }
+
+    .title_section {
+        margin-top: 20px;
+        padding: 24px;
+    }
+
+    .title_section h1 {
+        font-size: 32px !important;
+        line-height: unset;
+        letter-spacing: unset;
+    }
+
+    .title_section h2 {
+        font-size: 14px;
+        line-height: unset;
+    }
+
+    .content-webinar {
+            margin: 0;
+            padding: 22px 20px;
+    }
+
+    .content-webinar iframe {
+        width:100%;
+        height:300px;
+    }
+
+    .cta-download {
+        margin-top:36px;
+    }
+
+    .heading-webinar-wrapper {
+        justify-content: center;
+    }
+
+    .credit-webinar-header img {
+        max-width: 200px !important;
+        margin: 0 auto;
+    }
+
+    .content-webinar .heading-webinar img {
+        max-width: 40px;
+        display: flex;
+        align-self: flex-start;
+        margin-top: -4px;
+    }
+    
+
+    .content-webinar .heading-webinar h1 {
+        font-size: 20px;
+        margin-top:0;
+    }
+
+    .content-webinar .heading-webinar h2 {
+        font-size: 15px;
+        text-align:left;
+    }
+
+    .heading-webinar-credit {
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    h1.uk-flex.uk-flex-center.title-webinar {
+        font-size: 16px;
+    }
+    .content-webinar .uk-first-column:nth-child(2) {
+        margin-top:0;
+    }
+
+
+
+   .content-webinar-grid-paragraph {
+        text-align: center;
+        max-width: unset;
+    }
+
+    .content-webinar__paragraph p, .content-webinar-grid-paragraph {
+        font-size: 16px;
+        margin-top:0;
+        margin-bottom:0;
+        line-height: 24px;
+    }
+
+    .content-webinar__paragraph a {
+        font-size: 16px;
+        line-height: 1px;
+    }
+
+    .cta-container {
+        margin-top:20px;
+        flex-flow: column;
+    }
+
+    .cta-container .cta-download {
+        margin-left:0;
+        margin-top: 20px;
+    }
+
+    .cta-container .cta-webinar {
+        width:100%;
+        height:36px;
+        font-size:18px;
+        padding: 18px 0px;
+    }
+
+    .column-custom-first {
+        width: 100%;
+        border-right: unset;
+        border-bottom: 4px solid #00469B;
+        padding-right: unset;
+    }
+
+    .column-custom-second {
+        width: 100%;
+        padding-left: unset;
+        display: flex;
+        justify-content:center;
+        flex-flow:column;
+    }
+
+    .column-custom-first, .column-custom-second h3 {
+        text-align:center;
+        font-size: 26px;
+    }
+
+    .column-custom-second img {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+  } /* END MEDIA QUERY */
+
+  /* END CUSTOM STYLE */
